@@ -29,21 +29,25 @@ nav,
 #credits {
   background-color: black;
   height: 60px;
-  
   /* Your code goes here */
-}
-
-.container {
-  /* width: 500px; */
-  width: 100%;
   display: flex;
-  align-items: center; 
+  justify-content: space-around;
+  align-items: space-around; 
   gap: 10px;
 }
 
-.container > div {
-  margin-left: auto;
-  margin-right: auto;
+.text-white div{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container {
+  width: 500px;
+  /* Your code goes here */
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  gap: 10px;
 }
 
 .button {
@@ -74,3 +78,4 @@ footer {
   min-height: 100%;
   padding: 10% 0%;
 }
+
